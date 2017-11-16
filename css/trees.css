@@ -1,7 +1,7 @@
-/* Please make sure that all of your class names have your unique name or 
-initials in front of them so they don't get mixed up with other's code! 
+/* Please make sure that all of your class names have your unique name or
+initials in front of them so they don't get mixed up with other's code!
 Do a quick text search to make sure your name or initials aren't already
-claimed in this file. You may also want to prepend your CSS with your full name 
+claimed in this file. You may also want to prepend your CSS with your full name
 or github link in a comment so we know who goes where!*/
 
 
@@ -470,9 +470,9 @@ or github link in a comment so we know who goes where!*/
     height: 60px;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    
+
     margin-bottom: -5px;
-    
+
     left: -80px;
   }
 
@@ -506,7 +506,7 @@ or github link in a comment so we know who goes where!*/
   }
   #clara .red:before {
     background-color: #C70039;
-    color: #F27C82;    
+    color: #F27C82;
   }
   #clara .silver:before {
     background-color: #ddd;
@@ -531,7 +531,7 @@ or github link in a comment so we know who goes where!*/
     -webkit-transform: translate(-7px,25px);
     -ms-transform: translate(-7px,25px);
     transform: translate(-7px,25px);
-    
+
   }
   #clara .light:nth-child(3) {
     left: 1em;
@@ -598,13 +598,13 @@ or github link in a comment so we know who goes where!*/
   bottom: 80px;
   border-bottom-left-radius: 50% 60px;
   border-bottom-right-radius: 50% 60px;
-	
+
 }
 #yd .top{
 	bottom: 130px;
 	border-bottom-left-radius: 50% 100px;
 	border-bottom-right-radius: 50% 100px;
-	
+
 }
 #yd .name{
 	position: absolute;
@@ -676,3 +676,66 @@ or github link in a comment so we know who goes where!*/
   left: 0px;
 }
 
+
+/*  cotterpinx tree styles */
+#cotterpinx {
+  background-color: cyan;
+   width: 320px;
+   height: 320px;
+   position: relative;
+   display:inline-block;
+   margin: 15px;
+}
+
+#cotterpinx .name {
+ position: absolute;
+  margin: auto 10px;
+ width: 300px;
+ text-align: center;
+ border: 10px #ffe766 solid;
+ font-size: 50px;
+ background-color: #ffd700;
+ color: #323232;
+ font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#cotterpinx .trunk {
+ border-color: brown transparent;
+ border-style: solid;
+ border-width: 0px 15px 200px;
+ position: absolute;
+ top: 120px;
+ left: 43%;
+ height: 0px;
+ width: 0px;
+}
+
+#cotterpinx .branch {
+ border-color: green transparent;
+ border-style: solid;
+ height: 0px;
+ position: absolute;
+ width: 0;
+ border-width: 0 100px 120px;
+ left: 17%;
+}
+
+#cotterpinx .top {
+  top: 80px;
+ border-bottom-left-radius: 50% 100px;
+ border-bottom-right-radius: 50% 100px;
+}
+
+#cotterpinx .middle {
+  top: 145px;
+/*     border-color: yellow transparent; */
+ border-bottom-left-radius: 50% 60px;
+ border-bottom-right-radius: 50% 60px;
+}
+
+#cotterpinx .bottom {
+top: 175px;
+/*     border-color: yellow transparent; */
+ border-bottom-left-radius: 50% 20px;
+ border-bottom-right-radius: 50% 20px;
+}
